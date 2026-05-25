@@ -1,7 +1,48 @@
 @charset "UTF-8";
 
-
 /* Paleta de Cores
     Verde: #49a09d
     Bege: #F5F5DC
 */
+
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+body {
+    background-color: #F5F5DC;
+    }
+
+main {
+    width: 90vw;
+    margin: 0 auto;
+    }
+
+#imagem {
+    background-size: cover;
+    width: auto;
+}
+
+fieldset {
+    border: 1px solid black;
+    padding: 30px;
+}
+
+section#Login > label > p {
+    display: block;
+    padding: 10px;
+    
+}
+
+section#Login {     
+        padding: 20px;
+        background-color: #116611;
+        margin: 0 auto;
+    }
+
+

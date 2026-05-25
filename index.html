@@ -4,21 +4,34 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="estilos/style.css">k
+    <link rel="stylesheet" href="estilos/style.css" screen="">
 </head>
 <body>
     <main>
         <section id="Login">
 
-            <div id="imagem">
+                <div id="imagem">
+                    <img src="imagens/pexels-iban-lopez-luna-2159602676-37703569.jpg" alt="Imagem de login">
+                </div>
 
-            </div>
-            <div id="formulario">
+                <div id="formulario">
+
                 <h1>Login</h1>
-                <p>Seja bem-vindo(a) novamente! Faça seu login para acessar sua contar;</p>
-            
-            <form action="login.php" method="post" autcomplete="on">
+                <p>Seja bem-vindo(a) novamente! Faça seu login para acessar sua contar</p>
+                
+                <form action="login.php" method="post" autcomplete="on">
+                <p>
+                    <label for="iemail">Email: </label>
+                    <input type="email" id="iemail" name="email" autocomplete="email" placeholder="Digite seu nome de usuário" required>
+                </p>
+                
+                <p>
+                    <label for="isenha">Senha: </label>
+                    <input type="password" id="isenha" name="senha" autocomplete="current-password" placeholder="Digite sua senha" required>
+                    </label>
+                </p>
 
+    
             </form>
             </div>
 
