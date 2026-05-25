@@ -12,8 +12,6 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
-
-
 body {
     background-color: #F5F5DC;
     }
@@ -23,10 +21,27 @@ main {
     margin: 0 auto;
     }
 
-#imagem {
-    background-size: cover;
-    width: auto;
+#formulario {
+    border: 1px solid black;
+    padding: 20px;
 }
+#Login > #formulario >h1 {
+    text-align: center;
+    padding: 10px;
+    color: white;
+    font-size: 1.5em;
+}
+
+#formulario > p {
+    padding: 10px;
+    color: white;
+}
+
+#formulario > form{
+    padding: 0 10px;
+    color: white;
+}
+
 
 fieldset {
     border: 1px solid black;
