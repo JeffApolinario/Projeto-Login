@@ -25,11 +25,11 @@ main {
     border: 1px solid black;
     padding: 20px;
 }
-#Login > #formulario >h1 {
+#Login > #formulario > h1 {
     text-align: center;
     padding: 10px;
     color: white;
-    font-size: 1.5em;
+    font-size: 1.2em;
 }
 
 #formulario > p {
@@ -42,17 +42,26 @@ main {
     color: white;
 }
 
+#formulario > form > p > input {
+    margin: 2px;
+    padding: 2px;
+    border: none;
+    border-radius: 5px;
+}
 
+#imagem {
+    height: 200px;
+    background-image: url("../imagens/pexels-iban-lopez-luna-2159602676-37703569.jpg");
+    background-size: cover;
+    background-position: center;
+}
 fieldset {
     border: 1px solid black;
     padding: 30px;
 }
 
-section#Login > label > p {
-    display: block;
-    padding: 10px;
-    
-}
+
+
 
 section#Login {     
         padding: 20px;
