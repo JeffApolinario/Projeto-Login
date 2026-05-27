@@ -14,7 +14,7 @@
 }
 
 body, html {
-    background-color: green;
+    background-color: #5f2c82;
     height: 100vh;
     width: 100vw;
 }
@@ -36,10 +36,10 @@ section#login {
     width: 250px;
     height: 500px;
     border-radius: 10px;
-    box-shadow: 0px 0px 10px rgbd(0, 0, 0, 450);
+    box-shadow: 0px 0px 20px rgb(0, 0, 0, 450);
 }
 
-section#login > #imagem {
+section#login > div#imagem {
     background: url("../imagens/pexels-iban-lopez-luna-2159602676-37703569.jpg") no-repeat center;
     display: block;
     background-size: cover;
