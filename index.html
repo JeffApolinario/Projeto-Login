@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=login,person,vpn_key" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined"/>
     <link rel="stylesheet" href="estilos/style.css">
     <link rel="stylesheet" href="estilos/media-query.css">
 </head>
@@ -13,6 +13,7 @@
         <section id="login">
 
                 <div id="imagem">
+                    <!-- Aqui vai a imagem nas CSS-->
                 </div>
 
                 <div id="formulario">
@@ -22,18 +23,22 @@
                 <form action="login.php" method="post" autcomplete="on">
 
                 <div class="campo">
-                    <span class="material-symbols-outlined">person</span>
-                    <input type="email" id="ilogi/n" name="email" autocomplete="email" placeholder="Digite o seu e-mail" size="20" required>
-                    <label for="ilogin">Email: </label>
+                    <span class="material-symbols-outlined">person</span> <!--Icone para o representação de login-->
+                    <input type="email" id="ilogi/n" name="email" autocomplete="email" placeholder="Digite o seu e-mail" maxlength="30" required>
+                    <label for="ilogin">Login: </label>
                 </div class="campo">
                 
                 <div class="campo">
-                    <span class="material-symbols-outlined">vpn_key</span>
-                    <input type="password" id="isenha" name="senha" autocomplete="current-password" placeholder="Digite sua senha" size="15" required>
+                    <span class="material-symbols-outlined">vpn_key</span> <!--Icone para o representação de login-->
+                    <input type="password" id="isenha" name="senha" autocomplete="current-password" placeholder="Digite sua senha" minlength="8" maxlength="20" required>
                     <label for="isenha">Senha: </label>
                 <div>
 
-    
+                <input type="submit" value="Entrar" class="botao-entrar">
+                <a href="esqueci.html" class="botao-esqueci">
+                    Esqueci minha senha <span class="material-symbols-outlined">lock_reset</span>
+                </a>
+
             </form>
             </div>
 
