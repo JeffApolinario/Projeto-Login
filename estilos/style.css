@@ -64,6 +64,45 @@ div#formulario > p {
     font-size: 0.8em;
 }
 
-form > input [type=submit] {
-    displat
+/* Configuração do botão de Entrar */
+form > input[type="submit"] {
+    display: block;
+    font-size: 1.2em;
+    width: 100%; /* para ocupar toda a largura do container (formulário)*/
+    height: 40px;
+    background-color: #177194;
+    color: white;
+    margin-top: 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+form > input[type="submit"]:hover {
+    background-color: #358aac
+}
+
+/* Configuração do botão de esqueci minha senha */
+form > a.botao-esqueci {
+    display: block;
+    text-align: center;
+    font-size: 1em;
+    width: 100%;
+    height: 40px;
+    border: 1px solid #177194;
+    color: #177194;
+    padding-top: 5px;
+    border-radius: 5px;
+    margin-top: 5px;
+    text-decoration: none;
+}
+
+form > a.botao-esqueci:hover {
+    background-color: #94c7db;
+    color: #fff;
+}
+
+
+form > a.botao-esqueci > span{
+    font-size: 1em; /* reduz o tamanho do ícone de reset para se adequar ao texto */
 }
