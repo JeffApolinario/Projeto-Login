@@ -35,7 +35,7 @@ section#login {
     background-color: #FAFAFA;
     width: 250px;
     height: 515px;
-    border-radius: 10px;
+    border-radius: 8px;
     box-shadow: 0px 0px 10px rgb(0, 0, 0, 450);
     transition: width 1s, height 1s;
     transition-timing-function: ease 0.8s;
@@ -66,13 +66,34 @@ div#formulario > p {
 
 form > div.campo {
     background-color:#177194;
+    border: 2px solid #177194;
+    display: block;
     width: 100%;
     height: 40px;
+    border-radius: 10px;
     margin: 5px 0px;
 }
 
 div.campo > label {
     display: none;
+}
+
+div.campo > span {
+    color: white;
+    font-size: 2em;
+    width: 40px;
+    padding: -3px;
+}
+
+div.campo > input {
+    background-color:#faf9f9;
+    font-size: 1em;
+    width: calc(100% - 44px); /* para ocupar o restante do espaço disponível, subtraindo a largura do ícone. Também, para se igualar ao container de login e senha */
+    height: 100%;
+    border: 0px;
+    border-radius: 8px;
+    padding: 4px;
+     transform: translateY(-35.9px) translateX(43px); /* para alinhar verticalmente e horizontalmente o campo de input com o ícone, já que o ícone tem um tamanho maior do que o campo de input. (Todas as transições devem estar na última linha do seletor)*/
 }
 
 /* Configuração do botão de Entrar */
